@@ -1,0 +1,32 @@
+@relation laptop
+
+@attribute hang {macbook, dell, acer, hp, asus}
+@attribute ram {4GB, 8GB, 16GB, 32GB}
+@attribute bonho {128GB, 256GB, 512GB}
+@attribute manhinh {HD, FHD}
+@attribute trangthai {yes, no}
+
+@data
+dell,4GB,128GB,HD,no
+dell,4GB,256GB,HD,no
+dell,8GB,128GB,FHD,yes
+dell,8GB,256GB,FHD,yes
+dell,16GB,256GB,FHD,yes
+dell,32GB,512GB,FHD,no
+acer,4GB,128GB,HD,no
+acer,8GB,128GB,HD,yes
+acer,8GB,256GB,FHD,yes
+acer,16GB,512GB,FHD,no
+acer,16GB,256GB,FHD,yes
+hp,4GB,128GB,HD,no
+hp,8GB,128GB,HD,yes
+hp,8GB,256GB,FHD,no
+hp,16GB,256GB,FHD,no
+asus,4GB,256GB,HD,yes
+asus,4GB,128GB,HD,yes
+asus,8GB,256GB,FHD,no
+asus,16GB,256GB,FHD,no
+asus,16GB,512GB,FHD,no
+macbook,8GB,256GB,FHD,no
+macbook,32GB,256GB,FHD,yes
+macbook,16GB,256GB,FHD,yes

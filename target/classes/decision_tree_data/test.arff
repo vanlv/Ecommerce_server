@@ -1,0 +1,16 @@
+@relation test
+
+@attribute loai {trong, guita, piano}
+@attribute doon {to, nho}
+@attribute khoiluong {nang, nhe}
+@attribute ketqua {0, 1}
+
+@data
+trong,to,nang,0
+guita,to,nhe,1
+trong,nho,nhe,0
+piano,nho,nang,0
+guita,nho,nang,1
+piano,to,nhe,1
+piano,nho,nhe,0
+trong,nho,nang,0
